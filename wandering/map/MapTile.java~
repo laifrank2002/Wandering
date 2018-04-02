@@ -1,0 +1,5 @@
+package wandering.maps;
+
+class MapTile extends JLabel {
+    
+}
