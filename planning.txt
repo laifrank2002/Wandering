@@ -1,4 +1,10 @@
 planning for this.
 
 put any suggestions here:
->
+>2 Dimensional
+  Bird's eye view
+>Multiple maps
+  Transition on map border with prompt
+>Similar to Wandering: Outposts with resources
+  Enterable interior*
+Monsters?
