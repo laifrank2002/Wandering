@@ -6,7 +6,8 @@ put any suggestions here:
 >Multiple maps
   Transition on map border with prompt
 >Similar to Wandering: Outposts with resources
-  Enterable interior*
+  Enterable interior
 Monsters?
 @story:
 Starts off like Crash Landing, the character must wander the land scavenging resources until they can find a Stargate/Portal/Gateway to go home.
+@graphics:
