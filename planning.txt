@@ -1,13 +1,16 @@
-planning for this.
+Planning.
 
-put any suggestions here:
+Put any suggestions here:
 >2 Dimensional
   Bird's eye view
 >Multiple maps
   Transition on map border with prompt
+  Impl: Seperate map loading as an object
 >Similar to Wandering: Outposts with resources
   Enterable interior
 Monsters?
-@story:
+>Story:
 Starts off like Crash Landing, the character must wander the land scavenging resources until they can find a Stargate/Portal/Gateway to go home.
-@graphics:
+>Graphics:
+Use LWJGL to render 2d graphics
+  Images created in paint.net
