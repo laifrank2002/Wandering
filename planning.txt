@@ -15,3 +15,9 @@ https://bubbl.us/NDE2NTcxNS84MDQzNjQvYWNlZjFhMzQ1M2M3OTgwMzhjMzcwNTU5YTA4M2QwYWQ
 >Graphics:
 Use LWJGL to render 2d graphics
   Images created in paint.net
+>Dark Room Managementesque
+  Resource management simulator
+    Buildings produce resources
+  Crafting?
+>Inventory system
+  not like Dark Room, but more traditional RPG style inventory
