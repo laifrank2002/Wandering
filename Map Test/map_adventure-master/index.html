@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/html_style.css" />
+        <!-- link: https://clocks-in-a-cooler.github.io/map_adventure/ -->
+    </head>
+
+    <body>
+        <!-- scripts, in alphabetical order -->
+        <script src="javascript/character.js"></script>
+        <script src="javascript/engine.js"></script>
+        <script src="javascript/event_handler.js"></script>
+        <script src="javascript/generate_map.js"></script>
+        <script src="javascript/game_state.js"></script>
+        <script src="javascript/map.js"></script>
+        <script src="javascript/map_panel_manager.js"></script>
+        <script src="javascript/map_tiles.js"></script>
+        <script src="javascript/scene_handler.js"></script>
+        <script src="javascript/scene_template.js"></script>
+
+        <div id=game>
+            <div id="messages">
+				<button onclick="button_click();">something will happen</button>
+            </div>
+            
+            <div id="inventory">
+                <!-- this div is for displaying the inventory 
+                    individual items will be displayed each as a <div class="inventory_item"
+                    this will probably be handled by a seperate module. (fun!) -->
+            </div>
+            
+            <div id="map_panel">
+				
+				
+            </div>
+			<canvas id="map_canvas" width="1120" height="1120">
+                
+			</canvas>
+        </div>
+
+        <script>				
+                /* references of different parts of the page, for the engine */
+                var game_panel = document.getElementById("game");
+                var inventory_panel = document.getElementById("inventory");
+                var message_panel = document.getElementById("messages");
+                var map_panel = document.getElementById("map_panel");
+				var map_canvas = document.getElementById("map_canvas");
+				var context = map_canvas.getContext("2d");
+				
+                EH.init();
+
+                function random_number(start, end) {
+                    var multiplier = Math.abs((start - end));
+                    var adder = Math.min(start, end);
+                    
+                    return Math.floor(Math.random() * multiplier + adder);
+                }
+                
+				function get_key_by_value(object, value) {
+					return Object.keys(object).find(key => object[key] === value);
+				}
+				
+                function create_element(tag, attributes) {
+                    var element = document.createElement(tag);
+
+                    var att;
+
+                    while (attributes.length > 0) {
+                        var att_obj = attributes.shift();
+
+                        att = document.createAttribute(att_obj.name);
+                        att.value = att_obj.value;
+
+                        element.setAttributeNode(att);
+                    }
+
+                    return element;
+                }
+
+                function button_click() {
+                    Engine.notify("something has happened.");
+                    GSM.start_game();
+                    //MPM.display_map(generate_prison_mine_map(70, 70));
+                }
+
+                Engine.notify("Alternatively, click the button.");
+                Engine.notify("Use the developer console (CTRL + SHIFT + I) or Firefox's Scratchpad to interact with and test the scripts.")
+        </script>
+    </body>
+</html>
