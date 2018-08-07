@@ -1,0 +1,47 @@
+game?
+Start
+-appear at farm
+-farmer is kind-ish to you
+-becomes your mentor, becomes a tutorial
+-farmer warms up to you
+-not many options at first
+-farmer has taught you a lot
+-farmer has promised to teach you more
+
+Map
+-farmer disappears, some other things too, and you can't live on the farm anymore
+-go looking for things
+-unsurprisingly peaceful
+-confined to a small place/path at first (uneasy about going off)
+-one path off the farmer's property
+-decide to make camp at a clearing, make camp at the clearing
+-Chekov's gun
+	-farmer's good luck charm
+		-30ml of naquadria
+
+Settlement
+-provides resources
+-allows for further exploration
+
+Exploration
+-mostly nature
+-paths here and there for no reason at all
+-fragments of technology
+	-advanced before (Type III civ), eroded
+-scrap for resources
+-primitive tech!
+
+Revelation
+-hints while exploring
+	-puzzles at first
+	-previous hints are good later on (Keep 'em)
+-endgame location determined by solving puzzle
+-massive spire behind a range of mountains
+-explanations
+-farmer's corpse besides an interface
+-power interface with naquadria
+-activate spire
+
+The planet used to be a city world many many eons ago, but sometime in the [DATA LOST] century, a massive devastating galactic war occured with an extragalactic invading species of incredible strength. In order to end the war, [$hyperspace] had to be destroyed, therefore fragmenting and dissolving the [$federation]. By the current time, every city planet has collapsed into ruins. But wait, there's more! Alternate technology has been developed before this city planet collapsed: Teleportation!
+
+-the farmer was the lead researcher

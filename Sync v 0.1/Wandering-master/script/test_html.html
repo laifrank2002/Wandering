@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<!-- I THANK FRANK FOR THIS AMAZING TEST FILE. WITHOUT IT, WOULD NOT HAVE BEEN ABLE TO TEST MY SCRIPTS AND ENSURE THEY'RE SUCCESSFUL.
+
+    THANKS, FRANK -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        textarea {
+            font-family: "Courier New", "Consolas", monospace;
+            font-size: "16pt";
+        }
+    </style>
+</head>
+<body>
+    <!-- test text area, for testing the map -->
+    <textarea cols = '100' rows = '100' id='test' disabled></textarea>
+
+    <!-- include all of the scripts, all testable through Firefox Scratchpad or the Javascript console -->
+    <script src="character.js"></script>
+    <script src="engine.js"></script>
+    <script src="generate_map.js"></script>
+    <script src="inventory.js"></script>
+    <script src="item.js"></script>
+    <script src="map.js"></script>
+    <script src="map_tiles.js"></script>
+
+    <!-- helper function for writing to the textarea (testarea?) -->
+    <script>
+        //select the tex(s)tarea
+        var output = document.getElementById('test');
+
+        function write(string) {
+            output.value = string;
+        }
+
+        write("use the developer console to interact and test components. (Ctrl + Shift + I)");
+
+        Engine._log = true;
+    </script>
+</body>
+</html>

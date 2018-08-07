@@ -1,0 +1,24 @@
+Planning.
+
+Put any suggestions here:
+>2 Dimensional
+  Bird's eye view (Limited)
+>Multiple maps (Local maps for the large macro scale game map)
+  Transition on map border
+>Similar to Wandering: Outposts with resources
+  Enterable interior for outposts
+Monsters? (NBT for each local map to summon fighting events)
+>Story:
+Starts off like Crash Landing, the character must wander the land scavenging resources until they can find a Stargate/Portal/Gateway to go home.
+https://bubbl.us/NDE2NTcxNS84MDQzNjQvYWNlZjFhMzQ1M2M3OTgwMzhjMzcwNTU5YTA4M2QwYWQ=@X
+>Graphics:
+  Images created in paint.net
+>Scale:
+    1 pixel = 12.5 cm
+>Local Maps (et vous) and Tiles
+    The game map is made up of many local maps (farm, forest path #1, settlement etc.)
+    Each local map is made of many tiles (16x16 images of paths, grass, trees etc.)\
+    The local map is populated by a JSON listing tiles to use
+>Formatting:
+tile images are saved as tile_[OBJECT NAME]_[VARIATION NAME/BASE].png
+local maps are saved as localmap_[SETTING]_[COORDS(0,0 is top left)].png
